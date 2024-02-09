@@ -27,6 +27,9 @@ server <- function(input, output, session) {
   # Initialiser la position actuelle du joueur à la première case
   roll_result <- reactiveVal(1)
   
+  # Initialiser le compteur de lancers de dé
+  roll_count <- reactiveVal(0)
+  
   # Liste pour stocker les couleurs pour chaque bouton de couleur
   case_buttons <- list()
   
@@ -53,17 +56,19 @@ server <- function(input, output, session) {
     output$roll_text <- renderText({
       paste("Vous avez fait le roll :", roll_value) #renseigne par un texte le roll fait
     })
+    roll_count(roll_count() + 1)  # Incrémenter le compteur de lancers de dé
     
     # Vérifier si le joueur a gagné
     if (roll_result() >= num_cases) {
       showModal(modalDialog(
         title = "Félicitations !",
-        "Vous avez gagné !",
+        paste("Vous avez gagné ! Vous avez effectué", roll_count(), "lancers de dé!"),  # Afficher le nombre de lancers de dé
         footer = tagList(  # Création d'une liste de boutons pour le pied de la fenêtre modale
           actionButton("restart", "Recommencer"),  # Bouton pour recommencer le jeu
           actionButton("quit", "Quitter")  # Bouton pour quitter le jeu
         ),
-        easyClose = TRUE  # Permet de fermer la fenêtre apparue en cliquant à l'extérieur
+        easyClose = TRUE,  # Permet de fermer la fenêtre apparue en cliquant à l'extérieur
+        align = "center"  # Centre le contenu de la fenêtre
       ))
     }
   })
@@ -72,6 +77,7 @@ server <- function(input, output, session) {
   observeEvent(input$restart, {
     roll_result(1)  # Réinitialiser la position à la première case
     removeModal()  # Fermer la fenêtre apparue
+    roll_count(0)  # Réinitialiser le compteur de lancers de dé
   })
   
   # Action quand le joueur clique sur "Quitter"
@@ -83,7 +89,8 @@ server <- function(input, output, session) {
         actionButton("cancel", "Annuler"),  # Bouton pour annuler la sortie
         actionButton("confirm_quit", "Quitter définitivement")  # Bouton pour confirmer la sortie
       ),
-      easyClose = TRUE  # Permet de fermer la fenêtre modale en cliquant à l'extérieur
+      easyClose = TRUE,  # Permet de fermer la fenêtre modale en cliquant à l'extérieur
+      align = "center"  # Centre le contenu de la fenêtre
     ))
   })
   
