@@ -1,5 +1,6 @@
 ##essai graphismes avec données Diamond
 
+library(ggplot2)
 library(dplyr)
 data("diamonds")
 names(diamonds)

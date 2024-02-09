@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 library(shiny)
 
 ui <- fluidPage(
@@ -48,7 +47,6 @@ server <- function(input, output, session) {
 }
 
 # Lancement de l'application
-=======
 library(shiny)
 
 ui <- fluidPage(
@@ -98,5 +96,4 @@ server <- function(input, output, session) {
 }
 
 # Lancement de l'application
->>>>>>> ebad2ef234d0f12a601120ad913f39b3d62ccb77
 shinyApp(ui, server)
