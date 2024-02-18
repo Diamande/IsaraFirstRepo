@@ -1,0 +1,1351 @@
+---
+title: "Compte rendu sur la nutrition et la santé"
+author: "Diamande DELANNAY"
+date: "`r format(Sys.time(), '%B %Y')` - Réalisé dans le module OPEN"
+output:
+  pdf_document: default
+  toc: true
+bibliography: Bibliographie_projet_individuel.bib
+csl: "isara-iso-690.csl"
+---
+
+# I. Introduction
+
+L'alimentation joue un rôle essentiel pour préserver notre bien-être.
+
+Elle nous permet de :  
+
+* Favoriser le développement, la réparation et le renouvellement des cellules et des tissus de notre organisme. 
+* Fournir l'énergie nécessaire à nos déplacements, au maintien de notre température corporelle et à l'exécution de nos activités quotidiennes. 
+* Faciliter divers processus chimiques, notamment la digestion des aliments. 
+* Renforcer notre système immunitaire pour combattre les infections et favoriser la guérison des maladies. 
+
+Les nutriments, composants de notre alimentation, se divisent en micronutriments, tels que les vitamines et les minéraux, nécessaires en petites quantités, et en macronutriments, comme les glucides, les protéines et les lipides, nécessaires en plus grandes quantités. Un apport équilibré en nutriments est essentiel pour assurer le bon fonctionnement de notre corps. Adopter une alimentation saine et équilibrée nous permet de profiter d'une variété d'aliments exempts de substances nocives et de maladies.  
+
+Prévenir les problèmes de santé est préférable à les traiter. Une alimentation saine dès le plus jeune âge favorise une meilleure santé à long terme. Une alimentation équilibrée implique de consommer des aliments variés, car aucun aliment ne contient tous les nutriments nécessaires à lui seul, à l'exception du lait maternel pour les nourrissons jusqu'à l'âge de six mois. En optant pour des aliments de saison et locaux, il est possible de profiter pleinement de la nourriture tout en préservant sa santé.  
+
+Tout d’abord, nous examinerons la consommation quotidienne de macronutriments et de micronutriments par les adultes de différents groupes d'âge et de sexes, ainsi que les écarts par rapport aux recommandations journalières. Nous identifierons ensuite les aliments qui fournissent le plus de nutriments chaque jour et explorerons les recommandations pour établir des repas équilibrés.
+
+[@fao_alimentation_2003]
+
+
+# II. Les consommations journalières et les recommandations
+
+## 1. Les macronutriments
+
+Les macronutriments, essentiels à notre alimentation, fournissent l'énergie nécessaire au bon fonctionnement de notre corps et soutiennent ses fonctions vitales. Les glucides, les lipides et les protéines constituent les principaux macronutriments. Maintenir une alimentation équilibrée implique de consommer des quantités adéquates de chacun de ces éléments pour préserver la santé. 
+
+Les macronutriments remplissent plusieurs rôles essentiels, ils contribuent à la construction et à la réparation des tissus, soutiennent le fonctionnement du système nerveux, régulent les fonctions corporelles et stockent l'énergie sous forme de glycogène et de graisse pour une utilisation ultérieure. 
+
+Il existe trois principaux macronutriments : 
+
+* Glucides : Principale source d'énergie pour notre corps, ils sont digérés et transformés en glucose, utilisé comme carburant par les cellules. 
+* Lipides : Autre source d'énergie importante, également appelé graisse, ils sont essentiels pour diverses fonctions corporelles telles que l'absorption des vitamines liposolubles, la protection des organes et la construction des membranes cellulaires. 
+* Protéines : Éléments constitutifs essentiels du corps, elles jouent un rôle crucial au niveau des muscles, dans la croissance, la réparation des tissus et la production d'enzymes et d'hormones.
+
+L'Apport Énergétique Total (AET) représente la quantité totale d'énergie provenant de tous les macronutriments, apportant de l'énergie, consommés dans l'alimentation.
+
+### a) Tableau des rôles et des risques en cas de carence en macronutriments et d'aliments fournissant ces macronutriments
+
+| Macronutriments      | Rôles                                                                                                           | Risques en cas de carence                                                                                    | Aliments                                                                                                         |
+|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| **AET** (kcal/j) *(1)*       | Fournit de l'énergie pour les fonctions corporelles et l'activité physique                                    | Fatigue, faiblesse, perte de poids                                                                           | Glucides, lipides, protéines  |
+|---------------------------|
+| **Lipides** (g/j) *(2)*      | Isolation thermique, absorption des vitamines liposolubles                                   | Déficit en énergie, peau sèche, carence en vitamines A, D, E, K                                             | Huiles, beurre, avocats, noix, poissons gras                                                                     |
+|---------------------------|
+| **AGS** (g/j) *(3)*         | Composants des membranes cellulaires, précurseurs de certaines hormones                        | Augmentation du cholestérol LDL, risque accru de maladies cardiovasculaires                                   | Beurre, fromages, viandes grasses, produits laitiers entiers, huile de palme                                       |
+|---------------------------|
+| **Protides** (g/j) *(4)*   | Constituants des muscles, des os, des enzymes et des hormones, impliqués dans la réparation des tissus          | Perte musculaire, retard de croissance, faiblesse, œdème                                                    | Viandes, poissons, œufs, produits laitiers, légumineuses                                      |
+|---------------------------|
+| **Glucides simples** (g/j) | Source d'énergie rapide, carburant pour le cerveau et les muscles                                             | Hypoglycémie, fatigue, manque d'énergie, mauvaise performance mentale et physique                            | Sucres ajoutés, miel, confiture, fruits                                |
+|---------------------------|
+| **Glucides totaux** (g/j) *(5)* | Principal carburant pour le corps, fourniture d'énergie                                        | Fatigue, faiblesse, manque d'énergie                                                             | Céréales, pain, pâtes, riz, légumes, fruits, légumineuses                                      |
+|---------------------------|
+| **Alcool** (g/j)       | Effet relaxant ou stimulant selon la consommation                                             | Toxicité hépatique, dépendance, troubles cognitifs et moteurs                                                | Bière, vin, spiritueux                                                                                          |
+|---------------------------|
+| **Fibres** (g/j)       | Régulation du transit intestinal, prévention de la constipation, maintien d'un poids santé, santé cardiovasculaire | Constipation, risque accru de maladies cardiovasculaires, gain de poids, risque accru de cancer du côlon      | Fruits, légumes, céréales complètes, légumineuses, graines, noix                                                   |
+
+*Note* : 
+
+*(1)* : AET = Glucides + lipides + protéines + alcool (les fibres ne comptent pas car elles n'apportent pas d'énergie)
+
+*(2)* : Lipides = AGS + autres acides gras
+
+*(3)* : AGS = Acide Gras Saturé
+
+*(4)* : Protides = Protéines
+
+*(5)* : Glucides totaux = Glucides simples + Glucides complexes
+
+[@my_body_quel_2023]
+
+### b) Graphique des apports en macronutriments par classe d’âge et sexe [@inca_etude_2007]
+
+```{r Apport_energie_adultes, fig.width=10, fig.height=10, eval=TRUE, echo=FALSE}
+library(ggplot2)
+library(tidyr)
+suppressPackageStartupMessages(library(tidyverse))
+
+Apport_energie_adultes <- read.csv("Apport_energie_F_et_H_adultes.csv", sep=";", dec=",")
+
+
+# Transformer les données au format long
+data_long_energie <- pivot_longer(Apport_energie_adultes, -X, names_to = "Groupes", values_to = "Apport")
+
+# Créer une nouvelle colonne "Groupes" avec des niveaux corrects
+data_long_energie$Groupes <- factor(data_long_energie$Groupes, levels = c("Hommes.18.34", "Hommes.35.54", "Hommes.55.79", 
+                                                          "Femmes.18.34", "Femmes.35.54", "Femmes.55.79", 
+                                                          "Ensemble.18.35", "Ensemble.35.54", "Ensemble.55.79"),
+                            labels = c("Hommes (18-34 ans)", "Hommes (35-54 ans)", "Hommes (55-79 ans)", 
+                                       "Femmes (18-34 ans)", "Femmes (35-54 ans)", "Femmes (55-79 ans)", 
+                                       "Ensemble (18-35 ans)", "Ensemble (35-54 ans)", "Ensemble (55-79 ans)"))
+
+# Définir les couleurs pour chaque groupe d'âge et de sexe
+colors <- c("Hommes (18-34 ans)" = "#9ECDF4", "Hommes (35-54 ans)" = "#3F9CE9", "Hommes (55-79 ans)" = "#115A97",
+            "Femmes (18-34 ans)" = "#F0BAEB", "Femmes (35-54 ans)" = "#DD65D2", "Femmes (55-79 ans)" = "#B228A5",
+            "Ensemble (18-35 ans)" = "#A8EAB1", "Ensemble (35-54 ans)" = "#30CA46", "Ensemble (55-79 ans)" = "#176322")
+
+# Créer le graphique à barres avec facettes et couleurs personnalisées
+ggplot(data_long_energie, aes(x = Groupes, y = Apport, fill = Groupes)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Apport en macronutriments par groupe d'âge et sexe",
+       x = "Groupes d'âge et sexe des consommateurs",
+       y = "Apport en macronutriments",
+       fill = "Groupes d'âge et sexe des consommateurs") +
+  facet_wrap(~X, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = colors, name = "Légende :") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom",
+        legend.text = element_text(size = 12),  # Taille du texte de légende
+        legend.title = element_text(size = 14),  # Taille du titre de légende
+        axis.text = element_text(size = 12),  # Taille du texte de l'axe
+        axis.title = element_text(size = 14),  # Taille du titre de l'axe
+        plot.title = element_text(size = 20),  # Taille du titre du graphique
+        strip.text = element_text(size = 12)) +  # Taille du texte des titres des facettes
+  guides(fill = guide_legend(nrow = 3)) +
+  scale_x_discrete(breaks = NULL)  # Supprimer l'affichage des données sur l'axe x
+```
+
+Les données révèlent des différences significatives dans les apports en macronutriments selon le sexe et l'âge, avec des schémas distincts observés chez les hommes et les femmes ainsi qu'entre les différents groupes d'âge. Il est important de noter que ces tendances peuvent être influencées par des facteurs de style de vie et des préférences alimentaires individuelles. 
+
+Généralement, les hommes ont tendance à consommer davantage de calories que les femmes, ce qui peut être associé à des différences physiologiques et métaboliques, ainsi qu'à des choix alimentaires spécifiques. En ce qui concerne les hommes, les jeunes adultes âgés de 18 à 34 ans affichent les apports énergétiques les plus élevés, tandis que chez les femmes, ce sont les 35 à 54 ans qui présentent la consommation la plus importante. 
+
+La consommation de protéines varie également en fonction du sexe et de l'âge, avec des niveaux généralement plus élevés chez les hommes par rapport aux femmes. Les jeunes adultes ont tendance à consommer plus de protéines, ce qui peut être lié à des besoins accrus pour la croissance et le développement, ainsi qu'à une activité physique plus intense. 
+
+Les lipides, une source majeure d'énergie, sont également consommés en quantités plus importantes par les hommes que par les femmes, avec des variations selon l'âge. Cette différence peut être attribuée à des préférences alimentaires individuelles et à des modèles de consommation spécifiques à chaque groupe démographique. 
+
+Quant aux glucides, principale source d'énergie pour le corps, les hommes ont tendance à consommer plus de glucides totaux que les femmes, avec des variations significatives entre les différents groupes d'âge. Les glucides simples, tels que le sucre, sont rapidement absorbés et fournissent une énergie immédiate, tandis que les glucides complexes, comme l'amidon, assurent une libération d'énergie plus soutenue. 
+
+La consommation de fibres alimentaires, essentielles pour la santé digestive, varie également en fonction du sexe et de l'âge, avec des niveaux globalement plus élevés chez les hommes et une légère augmentation avec l'âge. 
+
+En ce qui concerne l'alcool, sa consommation diffère selon le sexe et l'âge, les hommes affichant généralement des niveaux plus élevés que les femmes, avec une augmentation observée avec l'âge. Il est important de noter que la consommation excessive d'alcool peut avoir des conséquences néfastes sur la santé.
+
+
+### c) Graphique de la différence entre les apports recommandés et la consommation de macronutriments par classe d’âge et sexe [@inca_etude_2007] [@cerin_references_2021] [@sante_canada_tableaux_2005]
+
+```{r Apport_energie_adultes2, fig.width=10, fig.height=8, eval=TRUE, echo=FALSE}
+
+# Transformer les données au format long
+data_long_energie <- pivot_longer(Apport_energie_adultes, -X, names_to = "Groupes", values_to = "Apport")
+
+# Créer une nouvelle colonne "Groupes" avec des niveaux corrects
+data_long_energie$Groupes <- factor(data_long_energie$Groupes, levels = c("Hommes.18.34", "Hommes.35.54", "Hommes.55.79", 
+                                                                          "Femmes.18.34", "Femmes.35.54", "Femmes.55.79", 
+                                                                          "Ensemble.18.35", "Ensemble.35.54", "Ensemble.55.79"),
+                                    labels = c("Hommes (18-34 ans)", "Hommes (35-54 ans)", "Hommes (55-79 ans)", 
+                                               "Femmes (18-34 ans)", "Femmes (35-54 ans)", "Femmes (55-79 ans)", 
+                                               "Ensemble (18-35 ans)", "Ensemble (35-54 ans)", "Ensemble (55-79 ans)"))
+
+# Définir les couleurs pour chaque groupe d'âge et de sexe
+colors <- c("Hommes (18-34 ans)" = "#9ECDF4", "Hommes (35-54 ans)" = "#3F9CE9", "Hommes (55-79 ans)" = "#115A97",
+            "Femmes (18-34 ans)" = "#F0BAEB", "Femmes (35-54 ans)" = "#DD65D2", "Femmes (55-79 ans)" = "#B228A5",
+            "Ensemble (18-35 ans)" = "#A8EAB1", "Ensemble (35-54 ans)" = "#30CA46", "Ensemble (55-79 ans)" = "#176322")
+
+# Filtrer les données pour exclure les ensembles avec une plage d'âge de 18 à 79 ans
+data_long_energie_filtered <- data_long_energie %>%
+  filter(!grepl("Ensemble", Groupes))
+
+# Créer le graphique à barres avec facettes et couleurs personnalisées
+ggplot(data_long_energie_filtered, aes(x = Groupes, y = Apport, fill = Groupes)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  
+  #traits horizontals hommes
+  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AET (kcal/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 2500, yend = 2500), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AET (kcal/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 3000, yend = 3000), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AET (kcal/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 2200, yend = 2200), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AET (kcal/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 2800, yend = 2800), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AET (kcal/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AET (kcal/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 2400, yend = 2400), color = "red", linewidth = 1.5) +  
+  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AGS (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AGS (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 22, yend = 22), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AGS (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AGS (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 22, yend = 22), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AGS (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "AGS (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 22, yend = 22), color = "red", linewidth = 1.5) +  
+  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Alcool (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Alcool (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 2, yend = 2), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Alcool (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Alcool (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 2, yend = 2), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Alcool (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Alcool (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 2, yend = 2), color = "red", linewidth = 1.5) +  
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Fibres (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 25, yend = 25), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Fibres (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 38, yend = 38), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Fibres (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 25, yend = 25), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Fibres (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 38, yend = 38), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Fibres (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 25, yend = 25), color = "red", linewidth = 1.5) +  
+  geom_segment(data = subset(data_long_energie_filtered,  X == "Fibres (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 38, yend = 38), color = "red", linewidth = 1.5) +  
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 290, yend = 290), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 420, yend = 420), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 285, yend = 285), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 415, yend = 415), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 270, yend = 270), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 390, yend = 390), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 30, yend = 30), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 65, yend = 65), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 30, yend = 30), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 62, yend = 62), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 30, yend = 30), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 60, yend = 60), color = "red", linewidth = 1.5) + 
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 65, yend = 65), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 100, yend = 100), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 55, yend = 55), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 95, yend = 95), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 45, yend = 45), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 90, yend = 90), color = "red", linewidth = 1.5) + 
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"),
+               aes(x = 0.5, xend = 1.5, y = 56, yend = 56), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"),
+               aes(x = 0.5, xend = 1.5, y = 91, yend = 91), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"),
+               aes(x = 1.5, xend = 2.5, y = 56, yend = 56), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"),
+               aes(x = 1.5, xend = 2.5, y = 91, yend = 91), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"),
+               aes(x = 2.5, xend = 3.5, y = 56, yend = 56), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"),
+               aes(x = 2.5, xend = 3.5, y = 91, yend = 91), color = "red", linewidth = 1.5) + 
+  
+  #traits horizontals femmes
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "AET (kcal/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AET (kcal/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 2400, yend = 2400), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AET (kcal/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1800, yend = 1800), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AET (kcal/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 2200, yend = 2200), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AET (kcal/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1600, yend = 1600), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AET (kcal/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) + 
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "AGS (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_energie_filtered, X == "AGS (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 20, yend = 20), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AGS (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 0, yend = 0), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AGS (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 20, yend = 20), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "AGS (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 0, yend = 0), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_energie_filtered, X == "AGS (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 20, yend = 20), color = "red", linewidth = 1.5) + 
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Alcool (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 0, yend = 0), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Alcool (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1, yend = 1), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Alcool (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 0, yend = 0), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Alcool (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1, yend = 1), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Alcool (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 0, yend = 0), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Alcool (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1, yend = 1), color = "red", linewidth = 1.5) + 
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Fibres (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 25, yend = 25), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_energie_filtered, X == "Fibres (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 38, yend = 38), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Fibres (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 25, yend = 25), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Fibres (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 38, yend = 38), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Fibres (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 25, yend = 25), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Fibres (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 38, yend = 38), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 132, yend = 132), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 190, yend = 190), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 135, yend = 135), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 190, yend = 190), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 130, yend = 130), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides totaux (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 185, yend = 185), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 30, yend = 30), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 30, yend = 30), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Glucides simples (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 30, yend = 30), color = "red", linewidth = 1.5) + 
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 55, yend = 55), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 80, yend = 80), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 45, yend = 45), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 75, yend = 75), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 45, yend = 45), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Lipides (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 70, yend = 70), color = "red", linewidth = 1.5) + 
+  
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 46, yend = 46), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 75, yend = 75), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 46, yend = 46), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 75, yend = 75), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 46, yend = 46), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_energie_filtered, X == "Protides (g/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 75, yend = 75), color = "red", linewidth = 1.5) + 
+  
+  labs(title = "Apport en macronutriments par groupe d'âge et sexe",
+       x = "Groupes d'âge et sexe des consommateurs",
+       y = "Apport en macronutriments",
+       fill = "Groupes d'âge et sexe des consommateurs") +
+  facet_wrap(~X, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = colors, name = "Légende :") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom",
+        legend.text = element_text(size = 12),  # Taille du texte de légende
+        legend.title = element_text(size = 14),  # Taille du titre de légende
+        axis.text = element_text(size = 12),  # Taille du texte de l'axe
+        axis.title = element_text(size = 14),  # Taille du titre de l'axe
+        plot.title = element_text(size = 20),  # Taille du titre du graphique
+        strip.text = element_text(size = 12)) +  # Taille du texte des titres des facettes
+  guides(fill = guide_legend(nrow = 3)) +
+  scale_x_discrete(breaks = NULL)  # Supprimer l'affichage des données sur l'axe x
+
+```
+
+Tout d'abord, vous pouvez retrouver des barres rouges indiquant les plages recommandées d'apports en macronutriments pour les adultes, différenciées selon l'âge et le sexe.
+
+Les hommes ont généralement des apports énergétiques totaux (AET) supérieurs à ceux des femmes, avec des niveaux plus élevés chez les jeunes adultes. Cependant, il est important de noter que des niveaux excessifs d'AET peuvent entraîner un risque de surpoids et d'obésité, soulignant ainsi l'importance d'une gestion équilibrée des apports énergétiques. 
+
+La consommation de lipides, en particulier les acides gras saturés (AGS), dépasse souvent les recommandations établies, ce qui peut augmenter le risque de maladies cardiovasculaires et d'obésité. Cette surconsommation est plus prévalente chez les hommes, en particulier chez les jeunes adultes. Il est important de limiter la consommation d'aliments riches en graisses saturées pour prévenir les complications de santé associées à une consommation excessive de lipides. 
+
+La consommation de protéines, en particulier chez les jeunes adultes, tend à être plus élevée chez les hommes que chez les femmes. Il y a une consommation excessive de protéines, avec un risque sur la santé rénale. Il est crucial de promouvoir une consommation équilibrée de protéines, en mettant l'accent sur des sources maigres telles que les légumineuses, les produits laitiers faibles en gras et les viandes maigres. 
+
+Les glucides simples, souvent consommés en excès, peuvent contribuer à des fluctuations de la glycémie et à un risque accru de maladies chroniques telles que le diabète de type 2 et les maladies cardiovasculaires. Il est important de privilégier les glucides complexes provenant de sources telles que les grains entiers, les légumes et les fruits pour maintenir une santé optimale et prévenir les complications associées à une consommation excessive de glucides. 
+
+Une surconsommation d'alcool est fréquemment observée, particulièrement chez les hommes. Cette habitude peut entraîner de graves conséquences sur la santé, telles qu'une augmentation du risque de  maladies hépatiques, de cancer et de maladies cardiovasculaires. Il est impératif de sensibiliser aux limites de consommation recommandées et de promouvoir des comportements responsables en matière d'alcool pour prévenir les dommages associés à une consommation excessive. 
+
+Enfin, il convient de noter que la consommation de fibres alimentaires est très souvent en dessous des recommandations, quel que soit le sexe ou l'âge. Cette insuffisance peut accroître le risque de diverses complications de santé, telles que des problèmes digestifs.
+
+
+
+### d) Graphique de l'apport en énergie des lipides, protéines et glucides [@inca_etude_2007]
+
+```{r Apport_energie_adultes4, fig.width=7, fig.height=5, eval=TRUE, echo=FALSE}
+
+valeurs <- c(41.7, 17.8, 40.4)
+
+# Calculer pourcentages correspondant à chaque valeurs
+total = sum(valeurs)
+pourcentages = valeurs/total*100
+
+# Fonction text_pie pour ajouter des étiquettes au centre des quartiers
+text_pie = function(vector, labels = c(""), cex = 1) {
+  vector = vector / sum(vector) * 2 * pi
+  temp = c()
+  j = 0
+  l = 0
+  for (i in 1:length(vector)) {
+    k = vector[i] / 2
+    j = j + l + k
+    l = k
+    text(cos(j) / 2, sin(j) / 2, labels[i], cex = cex)
+  }
+  vector = temp
+}
+
+# Création du graphique
+pie(valeurs, col = c("orange", "red", "yellow"), labels = c("Lipides", "Protéines", "Glucides"), main = "Répartition de l'apport en énergie chez les hommes et les femmes", cex = 1.5)
+
+# Ajouter les étiquettes
+text_pie(pourcentages, c(paste(round(pourcentages[1], 1), "%"), paste(round(pourcentages[2], 1), "%"), paste(round(pourcentages[3], 1), "%")), cex = 1.1)
+
+
+```
+
+En analysant les données relatives à l'apport quotidien en lipides, protéines et glucides, chez les hommes et les femmes, nous pouvons déduire la contribution énergétique de chacun de ces macronutriments en termes de kcal/jour. Cette analyse nous permet de calculer l'apport énergétique total (AET), qui représente 100% de l'énergie fournie par l'alimentation. 
+
+Les résultats obtenus mettent en évidence que les lipides et les glucides constituent les principales sources d'énergie, dans des proportions presque équivalentes. Les lipides, bien que souvent perçus comme étant une source d'énergie plus concentrée, sont comparables aux glucides en termes de leur contribution calorique. Les protéines, bien que nécessaires à divers processus métaboliques et à la construction musculaire, contribuent de manière significativement moindre à l'apport énergétique total. 
+
+Cette analyse souligne l'importance de maintenir un équilibre approprié entre les lipides, les protéines et les glucides dans l'alimentation pour garantir un apport énergétique optimal et répondre aux besoins métaboliques quotidiens.
+
+## 2. Les vitamines
+
+Les vitamines, bien que dépourvues de valeur énergétique, sont essentielles pour l'organisme car elles sont nécessaires à de nombreux processus physiologiques. À l'exception des vitamines K et D, le corps humain est incapable de les synthétiser, donc leur apport via l'alimentation est crucial pour le bon fonctionnement de l'organisme. 
+Les vitamines sont impliquées dans la construction de l'organisme, le fonctionnement et l'entretien du corps, et une alimentation équilibrée permet de couvrir ces besoins, tout en contribuant à la prévention de diverses pathologies. Il est important de noter que la surconsommation de vitamines, surtout liposolubles, peut entraîner des effets toxiques à moyen ou long terme, tandis qu'un apport insuffisant peut causer des déficits ou des carences associées à des troubles cliniques. 
+
+Les vitamines liposolubles, comprenant les vitamines A, D, E et K, ont la particularité de se dissoudre dans les graisses. Elles sont emmagasinées dans les tissus adipeux (pour les vitamines D et E) et dans une quantité significative dans le foie (pour la vitamine A). Cette capacité d'accumulation peut entraîner un risque potentiel de toxicité en cas de surdosage.  En revanche, les vitamines hydrosolubles, telles que celles du groupe B (B1, B2, B3 ou PP, B5, B6, B8, B9 et B12) et la vitamine C, se dissolvent dans l'eau. Bien qu'elles puissent être stockées dans le corps, les risques de surdosage sont réduits car elles sont excrétées dans les urines.
+
+### a) Tableau des rôles et des risques en cas de carence en vitamines et d'aliments fournissant ces vitamines
+
+| Vitamines         | Rôles                                                        | Risques en cas de carence                                    | Aliments                                       |
+|-----------------------------------|--------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------|
+| **Bêta-carotène** (µg/j)   | Précurseur de la vitamine A, antioxydant, santé oculaire     | Diminution de la vision nocturne, altération de la peau     | Carottes, patates douces, épinards, mangues |
+|---------------------|
+| **Rétinol** (µg/j)         | Une des formes de la vitamine A, vision, croissance, santé de la peau et des muqueuses        | Sécheresse oculaire, kératomalacie                           | Abats, foie, œufs, produits laitiers, poisson    |
+|---------------------|
+| **Vitamine B1** (mg/j)     | Métabolisme des glucides, système nerveux                    | Beribéri, neuropathie périphérique                          | Céréales complètes, légumineuses, porc    |
+|---------------------|
+| **Vitamine B2** (mg/j)     | Métabolisme énergétique, santé de la peau et des yeux        | Lésions cutanées, lésions oculaires                           | Lait, œufs, viandes, légumes verts       |
+|---------------------|
+| **Vitamine B3** (mg/j)     | Métabolisme énergétique, santé de la peau                     | Pellagre, démence, dermatite                                   | Viandes, poissons, légumineuses, arachides|
+|---------------------|
+| **Vitamine B5** (mg/j)     | Synthèse des hormones et des neurotransmetteurs             | Fatigue, insomnie, crampes musculaires                       | Avocats, champignons, œufs, viandes    |
+|---------------------|
+| **Vitamine B6** (mg/j)     | Métabolisme des protéines, neurotransmission                  | Anémie, troubles neurologiques, dépression                    | Bananes, avocats, légumineuses, noix     |
+|---------------------|
+| **Vitamine B9** (µg/j)     | Synthèse de l'ADN, santé du système nerveux                    | Anémie mégaloblastique, anomalies du tube neural              | Légumes verts, légumineuses, agrumes    |
+|---------------------|
+| **Vitamine B12** (µg/j)    | Formation des globules rouges, fonction nerveuse               | Anémie pernicieuse, neuropathie, troubles cognitifs           | Viandes, poissons, produits laitiers, œufs|
+|---------------------|
+| **Vitamine C** (mg/j)      | Antioxydant, système immunitaire, formation de collagène     | Scorbut, affaiblissement du système immunitaire               | Agrumes, poivrons, fraises, kiwis        |
+|---------------------|
+| **Vitamine D** (µg/j)      | Absorption du calcium, santé osseuse                         | Rachitisme, ostéomalacie, faiblesse musculaire               | Poissons gras, jaune d'œuf, champignons  |
+|---------------------|
+| **Vitamine E** (mg/j)      | Antioxydant, santé des membranes cellulaires                  | Anémie, affaiblissement du système immunitaire               | Huiles végétales, noix, graines, avocats|
+
+[@nutrico_vitamines_2020] [@anses_que_2012]
+
+### b) Graphique des apports de vitamines par classe d’âge et sexe [@inca_etude_2007]
+
+```{r Apport_vitamines_adultes, fig.width=10, fig.height=10, eval=TRUE, echo=FALSE}
+
+Apport_vitamines_adultes <- read.csv("Apport_vitamines_F_et_H_adultes.csv", sep=";", dec=",")
+
+
+# Transformer les données au format long
+data_long_vitamines <- pivot_longer(Apport_vitamines_adultes, -X, names_to = "Groupes", values_to = "Apport")
+
+# Créer une nouvelle colonne "Groupes" avec des niveaux corrects
+data_long_vitamines$Groupes <- factor(data_long_vitamines$Groupes, levels = c("Hommes.18.34", "Hommes.35.54", "Hommes.55.79", 
+                                                          "Femmes.18.34", "Femmes.35.54", "Femmes.55.79", 
+                                                          "Ensemble.18.35", "Ensemble.35.54", "Ensemble.55.79"),
+                            labels = c("Hommes (18-34 ans)", "Hommes (35-54 ans)", "Hommes (55-79 ans)", 
+                                       "Femmes (18-34 ans)", "Femmes (35-54 ans)", "Femmes (55-79 ans)", 
+                                       "Ensemble (18-35 ans)", "Ensemble (35-54 ans)", "Ensemble (55-79 ans)"))
+
+# Définir les couleurs pour chaque groupe d'âge et de sexe
+colors <- c("Hommes (18-34 ans)" = "#9ECDF4", "Hommes (35-54 ans)" = "#3F9CE9", "Hommes (55-79 ans)" = "#115A97",
+            "Femmes (18-34 ans)" = "#F0BAEB", "Femmes (35-54 ans)" = "#DD65D2", "Femmes (55-79 ans)" = "#B228A5",
+            "Ensemble (18-35 ans)" = "#A8EAB1", "Ensemble (35-54 ans)" = "#30CA46", "Ensemble (55-79 ans)" = "#176322")
+
+# Créer le graphique à barres avec facettes et couleurs personnalisées
+ggplot(data_long_vitamines, aes(x = Groupes, y = Apport, fill = Groupes)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Apport de vitamines par groupe d'âge et sexe",
+       x = "Groupes d'âge et sexe des consommateurs",
+       y = "Apport de vitamines",
+       fill = "Groupes d'âge et sexe des consommateurs") +
+  facet_wrap(~X, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = colors, name = "Légende :") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom",
+        legend.text = element_text(size = 12),  # Taille du texte de légende
+        legend.title = element_text(size = 14),  # Taille du titre de légende
+        axis.text = element_text(size = 12),  # Taille du texte de l'axe
+        axis.title = element_text(size = 14),  # Taille du titre de l'axe
+        plot.title = element_text(size = 20),  # Taille du titre du graphique
+        strip.text = element_text(size = 12)) +  # Taille du texte des titres des facettes
+  guides(fill = guide_legend(nrow = 3)) +
+  scale_x_discrete(breaks = NULL)  # Supprimer l'affichage des données sur l'axe x
+```
+
+Les hommes présentent généralement des niveaux de consommation plus élevés en bêta-carotène et en rétinol que les femmes, indépendamment de leur groupe d'âge. Le bêta-carotène est un précurseur de la vitamine A, essentielle pour la vision, la croissance cellulaire et le système immunitaire. Le rétinol, quant à lui, est une forme active de la vitamine A, jouant un rôle crucial dans la santé de la peau et la vision nocturne.
+
+Les vitamines B sont essentielles pour de nombreux processus biologiques, notamment la production d'énergie, la synthèse des neurotransmetteurs et la régulation du métabolisme. Globalement, les apports en vitamines B semblent relativement constants entre les groupes d'âge et les sexes. Cependant, il est important de noter que certaines vitamines B, comme la niacine (B3) et la vitamine B6, montrent des variations légères mais significatives selon les groupes, soulignant peut-être des différences dans les besoins nutritionnels ou les habitudes alimentaires. 
+
+Pour la vitamine C, les hommes ont tendance à consommer légèrement plus de vitamine C que les femmes, avec des niveaux d'apports relativement stables à travers les différents groupes d'âge. La vitamine C est un antioxydant puissant impliqué dans le soutien du système immunitaire, la cicatrisation des plaies et la formation de collagène.  
+
+Les niveaux de consommation de vitamine D semblent augmenter légèrement avec l'âge pour les deux sexes, avec des hommes consommant généralement un peu plus que les femmes. La vitamine D est essentielle pour la santé osseuse, l'absorption du calcium, la fonction immunitaire et la régulation hormonale. Ces différences peuvent refléter une meilleure sensibilisation à l'importance de la vitamine D pour la santé osseuse chez les adultes plus âgés. 
+
+Les hommes ont tendance à consommer légèrement plus de vitamine E que les femmes, avec des niveaux d'apports relativement stables à travers les différents groupes d'âge. La vitamine E est un antioxydant important pour la santé cardiovasculaire, la santé de la peau et la protection contre les dommages causés par les radicaux libres. 
+
+### c) Graphique des apports recommandés de vitamines par classe d’âge et sexe [@inca_etude_2007] [@anses_les_2021]
+
+```{r Apport_vitamines_adultes2, fig.width=10, fig.height=8, eval=TRUE, echo=FALSE}
+
+# Transformer les données au format long
+data_long_vitamines <- pivot_longer(Apport_vitamines_adultes, -X, names_to = "Groupes", values_to = "Apport")
+
+# Créer une nouvelle colonne "Groupes" avec des niveaux corrects
+data_long_vitamines$Groupes <- factor(data_long_vitamines$Groupes, levels = c("Hommes.18.34", "Hommes.35.54", "Hommes.55.79", 
+                                                                          "Femmes.18.34", "Femmes.35.54", "Femmes.55.79", 
+                                                                          "Ensemble.18.35", "Ensemble.35.54", "Ensemble.55.79"),
+                                    labels = c("Hommes (18-34 ans)", "Hommes (35-54 ans)", "Hommes (55-79 ans)", 
+                                               "Femmes (18-34 ans)", "Femmes (35-54 ans)", "Femmes (55-79 ans)", 
+                                               "Ensemble (18-35 ans)", "Ensemble (35-54 ans)", "Ensemble (55-79 ans)"))
+
+# Définir les couleurs pour chaque groupe d'âge et de sexe
+colors <- c("Hommes (18-34 ans)" = "#9ECDF4", "Hommes (35-54 ans)" = "#3F9CE9", "Hommes (55-79 ans)" = "#115A97",
+            "Femmes (18-34 ans)" = "#F0BAEB", "Femmes (35-54 ans)" = "#DD65D2", "Femmes (55-79 ans)" = "#B228A5",
+            "Ensemble (18-35 ans)" = "#A8EAB1", "Ensemble (35-54 ans)" = "#30CA46", "Ensemble (55-79 ans)" = "#176322")
+
+# Filtrer les données pour exclure les ensembles avec une plage d'âge de 18 à 79 ans
+data_long_vitamines_filtered <- data_long_vitamines %>%
+  filter(!grepl("Ensemble", Groupes))
+
+# Créer le graphique à barres avec facettes et couleurs personnalisées
+ggplot(data_long_vitamines_filtered, aes(x = Groupes, y = Apport, fill = Groupes)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  
+  #traits horizontals hommes
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B1 (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 1.2, yend = 1.2), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B1 (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 1.2, yend = 1.2), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B1 (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 1.2, yend = 1.2), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B12 (ug/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 2.4, yend = 2.4), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B12 (ug/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 2.4, yend = 2.4), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B12 (ug/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 2.4, yend = 2.4), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B2 (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B2 (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B2 (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B3 (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 16, yend = 16), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B3 (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 16, yend = 16), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B3 (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 16, yend = 16), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 1.7, yend = 1.7), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 1.7, yend = 1.7), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 1.7, yend = 1.7), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 400, yend = 400), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 600, yend = 600), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 400, yend = 400), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 600, yend = 600), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 400, yend = 400), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 600, yend = 600), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine C (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 90, yend = 90), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine C (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 90, yend = 90), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine C (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 90, yend = 90), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine D (ug/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine D (ug/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 15, yend = 15), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine D (ug/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 15, yend = 15), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine E (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine E (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 15, yend = 15), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine E (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 15, yend = 15), color = "red", linewidth = 1.5) +
+  
+  
+  
+
+  #traits horizontals femmes
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B1 (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1.1, yend = 1.1), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B1 (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1.1, yend = 1.1), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B1 (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1.1, yend = 1.1), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B12 (ug/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 2.4, yend = 2.4), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B12 (ug/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 2.4, yend = 2.4), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B12 (ug/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 2.4, yend = 2.4), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B2 (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1.1, yend = 1.1), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B2 (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1.1, yend = 1.1), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B2 (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1.1, yend = 1.1), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B3 (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 14, yend = 14), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B3 (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 14, yend = 14), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B3 (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 14, yend = 14), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1.7, yend = 1.7), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1.7, yend = 1.7), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1.3, yend = 1.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B6 (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1.7, yend = 1.7), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 400, yend = 400), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 600, yend = 600), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 400, yend = 400), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 600, yend = 600), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 400, yend = 400), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine B9 (ug/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 600, yend = 600), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine C (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 75, yend = 75), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine C (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 75, yend = 75), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine C (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 75, yend = 75), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine D (ug/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine D (ug/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine D (ug/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 15, yend = 15), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine E (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine E (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 15, yend = 15), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_vitamines_filtered, X == "Vitamine E (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 15, yend = 15), color = "red", linewidth = 1.5) +
+  
+  
+  labs(title = "Apport de vitamines par groupe d'âge et sexe",
+       x = "Groupes d'âge et sexe des consommateurs",
+       y = "Apport de vitamines",
+       fill = "Groupes d'âge et sexe des consommateurs") +
+  facet_wrap(~X, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = colors, name = "Légende :") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom",
+        legend.text = element_text(size = 12),  # Taille du texte de légende
+        legend.title = element_text(size = 14),  # Taille du titre de légende
+        axis.text = element_text(size = 12),  # Taille du texte de l'axe
+        axis.title = element_text(size = 14),  # Taille du titre de l'axe
+        plot.title = element_text(size = 20),  # Taille du titre du graphique
+        strip.text = element_text(size = 12)) +  # Taille du texte des titres des facettes
+  guides(fill = guide_legend(nrow = 3)) +
+  scale_x_discrete(breaks = NULL)  # Supprimer l'affichage des données sur l'axe x
+```
+
+Tout d'abord, vous pouvez retrouver des barres rouges indiquant les plages recommandées d'apports en macronutriments pour les adultes, différenciées selon l'âge et le sexe.
+
+La consommation de bêta-carotène et de rétinol varie considérablement entre les groupes d'âge et les sexes. Les recommandations n'étant  pas fournies, cela rend difficile l'évaluation de la conformité par rapport aux normes recommandées. Pour le bêta-carotène, bien qu'il n'existe pas de recommandations spécifiques, on observe que les niveaux de consommation dépassent généralement les quantités associées à une alimentation équilibrée pour tous les groupes d'âge et les deux sexes. Concernant le rétinol, en l'absence de recommandations spécifiques, une comparaison directe avec les niveaux de consommation n'est pas possible. Cependant, il est important de noter que le rétinol est une forme active de vitamine A présente dans certains aliments d'origine animale, et que sa consommation doit être modérée pour éviter des effets indésirables. 
+
+La consommation de la plupart des vitamines B semble être en adéquation avec les recommandations pour la plupart des groupes d'âge et des sexes. Cependant, la vitamine B9 (acide folique) est consommée à des niveaux inférieurs aux recommandations pour certaines catégories, en particulier chez les femmes âgées. Pour les autres vitamines du groupe B (B1, B2, B3, B6, B12), les niveaux de consommation semblent généralement être conformes aux recommandations, indiquant une prise adéquate de ces nutriments impliqués dans divers processus métaboliques, y compris la production d'énergie et la santé du système nerveux. Quant à la vitamine B5, il n'existe pas de recommandations spécifiques, une évaluation directe de la conformité des niveaux de consommation n'est pas possible. Cependant, la vitamine B5, également connue sous le nom d'acide pantothénique, est impliquée dans de nombreux processus métaboliques et est présente dans une variété d'aliments, ce qui suggère qu'une alimentation équilibrée peut fournir des quantités adéquates de cette vitamine. 
+
+Les niveaux de consommation de vitamine C sont généralement proches des recommandations pour la plupart des groupes d'âge et des sexes, bien que certains groupes aient des niveaux légèrement supérieurs ou inférieurs aux recommandations. La vitamine C montre également une conformité avec les recommandations pour la plupart des groupes d'âge et des deux sexes, ce qui suggère une consommation adéquate de cet antioxydant important pour la santé immunitaire et la cicatrisation des plaies. 
+
+Les niveaux de consommation de vitamine D varient entre les groupes d'âge et les sexes, et on constate que la consommation de vitamine D est nettement inférieure aux recommandations pour tous les groupes d'âge et les sexes. Cela suggère que la population étudiée pourrait présenter un risque de carence en vitamine D. Une telle carence peut avoir des implications pour la santé osseuse, le système immunitaire et d'autres fonctions physiologiques.
+
+## 3. Les minéraux
+
+Les minéraux sont essentiels car ils jouent un rôle dans de nombreuses fonctions biologiques, telles que la formation des os et des dents, la régulation de la pression artérielle, la transmission des signaux nerveux, la contraction musculaire, et la production d'enzymes. Ils sont vitaux pour maintenir la santé globale et le bon fonctionnement de l'organisme. La déficience en minéraux peut engendrer divers troubles, allant de l'anémie ferriprive (apport insuffisant en fer dans l'organisme) à la malnutrition.
+
+Les minéraux sont classés en trois catégories : les macrominéraux, mesurés en grammes et nécessaires en quantités importantes, les microminéraux, mesurés en milligrammes et requis en moindre quantité, et les oligoéléments, mesurés en microgrammes et nécessaires en quantités minuscules. 
+
+Contrairement aux vitamines, qui se dégradent plus aisément, les minéraux sont généralement plus stables, ce qui limite les précautions à prendre lors de la préparation des aliments les contenant. 
+
+### a) Tableau des rôles et des risques en cas de carence en minéraux et d'aliments fournissant ces minéraux 
+
+| Minéraux   | Rôles                                                        | Risques en cas de carence                                    | Aliments                                       |
+|-----------------------------|--------------------------------------------------------------|-------------------------------------------------------------|------------------------------------------------|
+| **Calcium** (mg/j)    | Formation et renouvellement du squelette, contraction musculaire, coagulation sanguine, perméabilité membranaire, libération d'hormones, transmission nerveuse | Ostéoporose, retard de croissance, faiblesse osseuse     | Lait et produits laitiers, tofu, sardines, légumes verts |
+|------------------|
+| **Cuivre** (mg/j)     | Formation d'enzymes métaboliques, protection contre les radicaux libres | Anémie, troubles neurologiques, altération du système immunitaire | Foie, fruits de mer, noix, légumes verts |
+|------------------|
+| **Fer** (mg/j)        | Formation de l'hémoglobine, oxygénation des muscles        | Anémie, fatigue, faiblesse, troubles cognitifs               | Viandes rouges, légumineuses, épinards, céréales enrichies |
+|------------------|
+| **Iode** (µg/j)       | Formation des hormones thyroïdiennes, régulation du métabolisme | Hypothyroïdie, goitre, troubles du développement mental     | Poisson, produits laitiers, œufs, sel iodé |
+|------------------|
+| **Magnésium** (mg/j)  | Régulation du métabolisme musculaire, cardiaque et nerveux | Fatigue, irritabilité, crampes musculaires                   | Noix, graines, légumineuses, épinards |
+|------------------|
+| **Manganèse** (mg/j)  | Formation d'enzymes métaboliques, santé osseuse            | Faible croissance, troubles de la reproduction              | Noix, céréales complètes, fruits de mer |
+|------------------|
+| **Phosphore** (mg/j)  | Maintien de l'équilibre acido-basique, réactions biochimiques | Faiblesse musculaire, problèmes osseux                     | Viandes, produits laitiers, fruits de mer |
+|------------------|
+| **Potassium** (mg/j)  | Équilibre hydrique, pression artérielle, fonction musculaire | Fatigue, faiblesse musculaire, arythmie cardiaque          | Bananes, avocats, pommes de terre, épinards |
+|------------------|
+| **Sélénium** (µg/j)   | Antioxydant, soutien du système immunitaire                 | Risque accru de maladies cardiovasculaires, cancers         | Noix du Brésil, thon, œufs, viandes |
+|------------------|
+| **Sodium** (mg/j)     | Régulation de la pression osmotique, équilibre hydrique    | Déshydratation, fatigue, crampes musculaires                | Aliments transformés, sel de table, fromage |
+|------------------|
+| **Zinc** (mg/j)       | Activité enzymatique, synthèse protéique, immunité         | Retard de croissance, perte de poids, infections fréquentes | Viandes rouges, fruits de mer, légumineuses |
+
+[@anses_les_2012]
+
+### b) Graphique des apports de minéraux par classe d’âge et sexe [@inca_etude_2007]
+
+```{r Apport_mineraux_adultes, fig.width=10, fig.height=10, eval=TRUE, echo=FALSE}
+
+Apport_mineraux_adultes <- read.csv("Apport_mineraux_F_et_H_adultes.csv", sep=";", dec=",")
+
+
+# Transformer les données au format long
+data_long_mineraux <- pivot_longer(Apport_mineraux_adultes, -X, names_to = "Groupes", values_to = "Apport")
+
+# Créer une nouvelle colonne "Groupes" avec des niveaux corrects
+data_long_mineraux$Groupes <- factor(data_long_mineraux$Groupes, levels = c("Hommes.18.34", "Hommes.35.54", "Hommes.55.79", 
+                                                                              "Femmes.18.34", "Femmes.35.54", "Femmes.55.79", 
+                                                                              "Ensemble.18.35", "Ensemble.35.54", "Ensemble.55.79"),
+                                      labels = c("Hommes (18-34 ans)", "Hommes (35-54 ans)", "Hommes (55-79 ans)", 
+                                                 "Femmes (18-34 ans)", "Femmes (35-54 ans)", "Femmes (55-79 ans)", 
+                                                 "Ensemble (18-35 ans)", "Ensemble (35-54 ans)", "Ensemble (55-79 ans)"))
+
+# Définir les couleurs pour chaque groupe d'âge et de sexe
+colors <- c("Hommes (18-34 ans)" = "#9ECDF4", "Hommes (35-54 ans)" = "#3F9CE9", "Hommes (55-79 ans)" = "#115A97",
+            "Femmes (18-34 ans)" = "#F0BAEB", "Femmes (35-54 ans)" = "#DD65D2", "Femmes (55-79 ans)" = "#B228A5",
+            "Ensemble (18-35 ans)" = "#A8EAB1", "Ensemble (35-54 ans)" = "#30CA46", "Ensemble (55-79 ans)" = "#176322")
+
+# Créer le graphique à barres avec facettes et couleurs personnalisées
+ggplot(data_long_mineraux, aes(x = Groupes, y = Apport, fill = Groupes)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  labs(title = "Apport de minéraux par groupe d'âge et sexe",
+       x = "Groupes d'âge et sexe des consommateurs",
+       y = "Apport de minéraux",
+       fill = "Groupes d'âge et sexe des consommateurs") +
+  facet_wrap(~X, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = colors, name = "Légende :") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom",
+        legend.text = element_text(size = 12),  # Taille du texte de légende
+        legend.title = element_text(size = 14),  # Taille du titre de légende
+        axis.text = element_text(size = 12),  # Taille du texte de l'axe
+        axis.title = element_text(size = 14),  # Taille du titre de l'axe
+        plot.title = element_text(size = 20),  # Taille du titre du graphique
+        strip.text = element_text(size = 12)) +  # Taille du texte des titres des facettes
+  guides(fill = guide_legend(nrow = 3)) +
+  scale_x_discrete(breaks = NULL)  # Supprimer l'affichage des données sur l'axe x
+
+
+
+```
+
+Les hommes de tous les groupes d'âge consomment généralement plus de calcium que les femmes. Le calcium est essentiel pour la santé osseuse et la fonction musculaire, et les hommes ont souvent des besoins légèrement plus élevés en raison de leur masse corporelle plus importante. Les besoins en calcium semblent diminuer avec l'âge, avec une consommation plus élevée chez les jeunes adultes par rapport aux adultes plus âgés. Cependant, il est important pour les adultes plus âgés de maintenir une consommation adéquate de calcium pour prévenir l'ostéoporose et d'autres problèmes liés à la santé osseuse. 
+
+Les hommes ont tendance à consommer légèrement plus de cuivre, fer et manganèse que les femmes. Ces minéraux sont essentiels pour divers processus métaboliques, y compris la formation des globules rouges et le fonctionnement des enzymes. La consommation de ces minéraux semble relativement constante à travers les différents groupes d'âge pour chaque sexe. Cependant, les femmes en âge de procréer ont souvent des besoins accrus en fer en raison des pertes menstruelles, et elles devraient être conscientes de maintenir une consommation adéquate. 
+
+La consommation d'iode semble être plus élevée chez les hommes que chez les femmes, quel que soit l'âge. L'iode est crucial pour la fonction thyroïdienne et la santé métabolique. Les femmes plus âgées ont tendance à consommer un peu plus d'iode que les femmes plus jeunes. Cela peut être dû à une sensibilisation accrue à l'importance de l'iode pendant la ménopause, lorsque les hormones thyroïdiennes peuvent être perturbées. 
+
+Les hommes consomment généralement plus de magnésium que les femmes, avec une tendance similaire à travers tous les groupes d'âge. Le magnésium est essentiel pour la santé musculaire, nerveuse et cardiovasculaire. La consommation de magnésium semble diminuer légèrement avec l'âge pour les deux sexes. Cependant, il est important pour les adultes plus âgés de maintenir une consommation adéquate de magnésium pour soutenir une fonction musculaire et nerveuse optimale. 
+
+Les hommes ont tendance à consommer plus de phosphore, potassium et zinc que les femmes, et cette tendance est constatée à travers tous les groupes d'âge. Ces minéraux sont impliqués dans de nombreux processus biologiques, y compris la santé osseuse, la fonction nerveuse et musculaire, ainsi que le maintien de l'équilibre électrolytique. La consommation de ces minéraux varie généralement peu avec l'âge pour chaque sexe, soulignant l'importance pour les adultes de maintenir une consommation adéquate de ces minéraux pour soutenir une santé globale. 
+
+Concernant le sélénium, les hommes ont tendance à consommer plus que les femmes, bien que la différence entre les sexes soit moins prononcée que pour d'autres minéraux. Le sélénium est un antioxydant crucial pour la santé immunitaire et la fonction thyroïdienne. Sa consommation reste relativement stable avec l'âge pour chaque sexe. Cependant, il est important pour les adultes de maintenir une consommation adéquate de sélénium afin de soutenir une fonction immunitaire optimale. 
+
+Finalement, en ce qui concerne le sodium, les hommes ont tendance à en consommer plus que les femmes, bien que la différence entre les sexes soit moins marquée que pour d'autres minéraux. Le sodium est vital pour l'équilibre hydrique et la fonction nerveuse, mais une consommation excessive peut être liée à des problèmes de santé tels que l'hypertension. On observe une légère diminution de la consommation de sodium avec l'âge pour les deux sexes. Il est donc important pour les adultes de limiter leur consommation de sodium et de favoriser des sources alimentaires riches en potassium pour maintenir une pression artérielle saine.
+
+### c) Graphique des apports recommandés de minéraux par classe d’âge et sexe [@inca_etude_2007] [@anses_les_2021]
+
+```{r Apport_mineraux_adultes2, fig.width=10, fig.height=10, eval=TRUE, echo=FALSE}
+
+# Transformer les données au format long
+data_long_mineraux <- pivot_longer(Apport_mineraux_adultes, -X, names_to = "Groupes", values_to = "Apport")
+
+# Créer une nouvelle colonne "Groupes" avec des niveaux corrects
+data_long_mineraux$Groupes <- factor(data_long_mineraux$Groupes, levels = c("Hommes.18.34", "Hommes.35.54", "Hommes.55.79", 
+                                                                              "Femmes.18.34", "Femmes.35.54", "Femmes.55.79", 
+                                                                              "Ensemble.18.35", "Ensemble.35.54", "Ensemble.55.79"),
+                                      labels = c("Hommes (18-34 ans)", "Hommes (35-54 ans)", "Hommes (55-79 ans)", 
+                                                 "Femmes (18-34 ans)", "Femmes (35-54 ans)", "Femmes (55-79 ans)", 
+                                                 "Ensemble (18-35 ans)", "Ensemble (35-54 ans)", "Ensemble (55-79 ans)"))
+
+# Définir les couleurs pour chaque groupe d'âge et de sexe
+colors <- c("Hommes (18-34 ans)" = "#9ECDF4", "Hommes (35-54 ans)" = "#3F9CE9", "Hommes (55-79 ans)" = "#115A97",
+            "Femmes (18-34 ans)" = "#F0BAEB", "Femmes (35-54 ans)" = "#DD65D2", "Femmes (55-79 ans)" = "#B228A5",
+            "Ensemble (18-35 ans)" = "#A8EAB1", "Ensemble (35-54 ans)" = "#30CA46", "Ensemble (55-79 ans)" = "#176322")
+
+# Filtrer les données pour exclure les ensembles avec une plage d'âge de 18 à 79 ans
+data_long_mineraux_filtered <- data_long_mineraux %>%
+  filter(!grepl("Ensemble", Groupes))
+
+# Créer le graphique à barres avec facettes et couleurs personnalisées
+ggplot(data_long_mineraux_filtered, aes(x = Groupes, y = Apport, fill = Groupes)) +
+  geom_bar(stat = "identity", position = "dodge") +
+  
+  #traits horizontals hommes
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Cuivre (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 0.9, yend = 0.9), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Cuivre (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 0.9, yend = 0.9), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Cuivre (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 0.9, yend = 0.9), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Iode (ug/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 150, yend = 150), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Iode (ug/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 150, yend = 150), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Iode (ug/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 150, yend = 150), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Manganèse (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 2.3, yend = 2.3), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Manganèse (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 2.3, yend = 2.3), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Manganèse (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 2.3, yend = 2.3), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Phosphore (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 700, yend = 700), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Phosphore (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 700, yend = 700), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Phosphore (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 700, yend = 700), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 1200, yend = 1200), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 1200, yend = 1200), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 1200, yend = 1200), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 18, yend = 18), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 18, yend = 18), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 18, yend = 18), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 310, yend = 310), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 420, yend = 420), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 310, yend = 310), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 420, yend = 420), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 310, yend = 310), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 420, yend = 420), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 3500, yend = 3500), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 4700, yend = 4700), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 3500, yend = 3500), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 4700, yend = 4700), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 3500, yend = 3500), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 4700, yend = 4700), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 55, yend = 55), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 70, yend = 70), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 55, yend = 55), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 70, yend = 70), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 55, yend = 55), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 70, yend = 70), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 0.5, xend = 1.5, y = 11, yend = 11), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 1.5, xend = 2.5, y = 11, yend = 11), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 2.5, xend = 3.5, y = 11, yend = 11), color = "red", linewidth = 1.5) +
+  
+  
+  #traits horizontals femmes
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Cuivre (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 0.9, yend = 0.9), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Cuivre (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 0.9, yend = 0.9), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Cuivre (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 0.9, yend = 0.9), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Iode (ug/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 150, yend = 150), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Iode (ug/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 150, yend = 150), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Iode (ug/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 150, yend = 150), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Manganèse (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 2.3, yend = 2.3), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Manganèse (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 2.3, yend = 2.3), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Manganèse (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 2.3, yend = 2.3), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Phosphore (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 700, yend = 700), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Phosphore (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 700, yend = 700), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Phosphore (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 700, yend = 700), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1200, yend = 1200), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1200, yend = 1200), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Calcium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1200, yend = 1200), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 8, yend = 8), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 18, yend = 18), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 8, yend = 8), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 18, yend = 18), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Fer (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 18, yend = 18), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 310, yend = 310), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 420, yend = 420), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 310, yend = 310), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 420, yend = 420), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 310, yend = 310), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Magnésium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 420, yend = 420), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 3500, yend = 3500), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 4700, yend = 4700), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 3500, yend = 3500), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 4700, yend = 4700), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 3500, yend = 3500), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Potassium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 4700, yend = 4700), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 55, yend = 55), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 70, yend = 70), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 55, yend = 55), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 70, yend = 70), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 55, yend = 55), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sélénium (ug/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 70, yend = 70), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 1000, yend = 1000), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Sodium (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 2000, yend = 2000), color = "red", linewidth = 1.5) +
+  
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 8, yend = 8), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 3.5, xend = 4.5, y = 9, yend = 9), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 8, yend = 8), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 4.5, xend = 5.5, y = 9, yend = 9), color = "red", linewidth = 1.5) + 
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 8, yend = 8), color = "red", linewidth = 1.5) +
+  geom_segment(data = subset(data_long_mineraux_filtered, X == "Zinc (mg/j)"), 
+               aes(x = 5.5, xend = 6.5, y = 9, yend = 9), color = "red", linewidth = 1.5) +
+  
+  
+  
+  labs(title = "Apport de minéraux par groupe d'âge et sexe",
+       x = "Groupes d'âge et sexe des consommateurs",
+       y = "Apport de minéraux",
+       fill = "Groupes d'âge et sexe des consommateurs") +
+  facet_wrap(~X, scales = "free_y", ncol = 3) +
+  scale_fill_manual(values = colors, name = "Légende :") +
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 45, hjust = 1), 
+        legend.position = "bottom",
+        legend.text = element_text(size = 12),  # Taille du texte de légende
+        legend.title = element_text(size = 14),  # Taille du titre de légende
+        axis.text = element_text(size = 12),  # Taille du texte de l'axe
+        axis.title = element_text(size = 14),  # Taille du titre de l'axe
+        plot.title = element_text(size = 20),  # Taille du titre du graphique
+        strip.text = element_text(size = 12)) +  # Taille du texte des titres des facettes
+  guides(fill = guide_legend(nrow = 3)) +
+  scale_x_discrete(breaks = NULL)  # Supprimer l'affichage des données sur l'axe x
+
+
+
+```
+
+Tout d'abord, vous pouvez retrouver des barres rouges indiquant les plages recommandées d'apports en macronutriments pour les adultes, différenciées selon l'âge et le sexe.
+
+Les consommations en calcium montrent que tous les groupes d'âge et des sexes n'atteignent pas ou presque les recommandations journalières en calcium, ce qui suggère une mauvaise adéquation de la consommation avec les besoins recommandés. 
+
+Les niveaux de consommation de cuivre sont légèrement supérieure aux valeurs recommandées. 
+
+La consommation de fer chez les femmes est généralement plus faible que les recommandations, en particulier chez les femmes âgées. Cela soulève des préoccupations quant à un risque potentiel de carence en fer, surtout chez les femmes en âge de procréer. 
+
+Les données de consommation montrent une consommation légèrement inférieure aux recommandations d'iode. Une attention particulière doit être accordée à assurer une consommation adéquate d'iode, surtout chez les femmes en âge de procréer. 
+
+Les niveaux de consommation de magnésium sont généralement bien inférieurs aux recommandations, ce qui soulève des préoccupations quant à une possible insuffisance dans la population étudiée. 
+
+Les niveaux de consommation de manganèse sont relativement proches des recommandations.
+
+La plupart des groupes d'âge et des sexes dépassent les recommandations pour la consommation de phosphore. 
+
+Les données de consommation indiquent que la majorité des groupes d'âge et des sexes ont une consommation inférieure aux recommandations en potassium, ce qui soulève des préoccupations quant à un risque potentiel de carence. 
+
+Les niveaux de consommation de sélénium sont généralement proches des recommandations, bien que les femmes puissent avoir des apports légèrement inférieurs. 
+
+Les niveaux de consommation de sodium sont nettement supérieurs aux recommandations dans toutes les catégories, ce qui souligne un risque potentiel pour la santé cardiovasculaire lié à une consommation excessive de sel. 
+
+Les données de consommation montrent que la plupart des groupes d'âge et des sexes ont une consommation proche des recommandations en zinc.
+
+
+# III. La consommation journalière des aliments chez les adultes
+
+### a) Graphique de la consommation des aliments fournissant les calories quotidiennes [@inca_etude_2007]
+```{r Apport_energie_aliments, fig.width=10, fig.height=10, eval=TRUE, echo=FALSE}
+
+Apport_energie_aliments <- read.csv("Apport_energie_aliments.csv", sep=";", dec=",")
+
+# Convertir les données en format long
+Apport_energie_long <- Apport_energie_aliments %>%
+  pivot_longer(cols = -X, names_to = "Apport_energetique", values_to = "Valeur")
+
+# Définir les couleurs directement par aliment
+couleurs_aliments <- c(
+  "Beurre" = "#FFD233",
+  "Biscuits sucrés, salés et barres" = "#FF9333",
+  "Boissons alcoolisées" = "#33FF43",
+  "Boissons fraîches sans alcool" = "#9272DE",
+  "Charcuterie" = "#95FF33",
+  "Chocolat" = "#9272DE",
+  "Condiments et sauces" = "#33A1FF",
+  "Entremets, crèmes desserts et laits gélifiés" = "#F62278",
+  "Fromages" = "#0866A0",
+  "Fruits" = "#108618",
+  "Huile" = "#926464",
+  "Lait" = "#33C4FF",
+  "Légumes (hors pommes de terre)" = "#8DFB9F",
+  "Margarine" = "#908E46",
+  "Oeufs et dérivés" = "#FF8C33",
+  "Pain et panification sèche" = "#FFCB1A",
+  "Pâtes" = "#FFFF33",
+  "Pâtisseries et gâteaux" = "#cab2d6",
+  "Pizzas, quiches et pâtisseries salées" = "#E25B00",
+  "Plats composés" = "#724D10",
+  "Poissons" = "#B0C4F6",
+  "Pommes de terre et apparentés" = "#E39C0F",
+  "Riz et blé dur ou concassé" = "#FFFFAF",
+  "Sandwichs, casse-croûte" = "#F5C86F",
+  "Soupes et bouillons" = "#FDB5B5",
+  "Sucres et dérivés" = "#C616F6",
+  "Ultra-frais laitier" = "#93C7FB",
+  "Viande" = "#FA0E0E",
+  "Viennoiseries" = "#FA94E4",
+  "Volaille et gibier" = "#FC7474"
+)
+
+# Filtrer les données pour ne garder que les apports AET
+Apport_energie_filtre <- Apport_energie_long %>%
+  filter(Apport_energetique %in% c("AET..kcal.j.")) %>%
+  filter(!X %in% c("Céréales pour petit-déjeuner", "Glaces et desserts glacés", 
+                   "Compotes et fruits cuits", "Autres boissons chaudes", 
+                   "Fruits secs et graines oléagineuses", "Légumes secs", 
+                   "Café", "Abats", "Crustacés et mollusques", "ADAP", 
+                   "Autres céréales", "Autres graisses", "Eaux"))
+
+# Trier les données en fonction de la valeur décroissante de chaque apport énergétique
+Apport_energie_filtre <- Apport_energie_filtre %>%
+  group_by(Apport_energetique) %>%
+  arrange(desc(Valeur)) %>%
+  mutate(X = factor(X, levels = X[order(-Valeur)]))
+
+# Créer les graphiques à barres pour chaque apport énergétique avec les noms de légende sur les barres
+graphique <- ggplot(Apport_energie_filtre, aes(x = "", y = Valeur, fill = X)) +
+  geom_bar(stat = "identity", position = "stack") +
+  geom_text(aes(label = X), position = position_stack(vjust = 0.5), size = 3, color = "black") +  # Ajouter les noms de légende sur les barres
+  labs(title = "Répartition des apports énergétiques par aliment",
+       x = NULL,
+       y = "Apport énergétique (kcal/jour)") +  # Modifiez les étiquettes d'axe Y
+  scale_fill_manual(values = couleurs_aliments, guide = "none") +  # Supprimer la légende
+  theme_minimal() +  # Utilisez un thème minimal
+  theme(
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    legend.position = "none",  # Supprimer la légende
+    plot.title = element_text(hjust = 0.5, size = 16),  # Centrez le titre et modifiez la taille
+    axis.title.y = element_text(size = 12),  # Modifiez la taille de l'étiquette de l'axe Y
+    legend.title = element_text(size = 12),  # Modifiez la taille de l'étiquette de la légende
+    legend.text = element_text(size = 10)  # Modifiez la taille du texte de la légende
+  ) +
+  facet_wrap(~ Apport_energetique, scales = "free_y", ncol = 2) +  # Mettre les graphiques côte à côte
+  coord_cartesian(clip = "off")  # Permettre l'affichage des annotations en dehors des limites du graphique
+
+# Afficher le graphique
+print(graphique)
+
+
+```
+
+Tout d'abord, certains groupes alimentaires se démarquent par leur densité énergétique élevée, tels que le pain et la panification sèche, les pâtisseries et gâteaux, ainsi que les fromages et les viandes. Ces aliments fournissent une quantité significative d'énergie, mais leur consommation excessive peut contribuer à un apport calorique démesuré et à des problèmes de santé associés aux graisses saturées et aux sucres ajoutés. À l'opposé, des catégories telles que les céréales pour petit-déjeuner, les légumes, les fruits et les boissons non alcoolisées offrent des apports caloriques plus faibles tout en étant riches en nutriments essentiels comme les fibres, les vitamines et les minéraux, favorisant ainsi une alimentation équilibrée et saine. 
+
+Dans un contexte d'équilibre alimentaire, il est crucial de considérer la diversité des sources de nutriments. Les légumes, qu'ils soient frais, surgelés ou en conserve, offrent une variété de vitamines et de minéraux essentiels pour le fonctionnement optimal du corps. De même, les fruits frais et les fruits secs sont d'excellentes sources de fibres et de vitamines, contribuant à la satiété et au bon fonctionnement du système digestif. L'inclusion de ces aliments dans l'alimentation quotidienne peut donc soutenir une bonne santé générale. 
+
+Par ailleurs, les choix alimentaires ne se limitent pas uniquement aux aspects nutritionnels, mais doivent également tenir compte des préférences individuelles, des traditions culturelles et des habitudes de vie. Les aliments transformés et les plats préparés peuvent fournir une solution pratique pour les repas, mais il est essentiel de surveiller leur teneur en matières grasses saturées, en sucres ajoutés et en sodium. Les graisses, notamment les huiles et les matières grasses animales, sont des sources concentrées de calories et leur consommation doit être modérée dans le cadre d'une alimentation équilibrée. 
+
+Une approche équilibrée de l'alimentation consiste à privilégier les aliments riches en nutriments tout en limitant la consommation d'aliments riches en calories vides. L'accent devrait être mis sur la variété, la modération et la qualité des aliments consommés pour soutenir une santé optimale à long terme.
+
+# IV. Un repas équilibré
+
+L'adoption d'un régime alimentaire équilibré tout au long de la vie est fondamentale pour prévenir diverses formes de malnutrition et de maladies non transmissibles. Cependant, les tendances modernes, telles que la production accrue d'aliments transformés et l'urbanisation rapide, ont entraîné des changements dans nos habitudes alimentaires. Nous constatons une préférence croissante pour les aliments riches en calories, en graisses saturées, en sucres ajoutés et en sodium, tandis que la consommation de fruits, de légumes et de fibres alimentaires, essentiels pour une santé optimale, est souvent insuffisante.  
+
+Bien que la composition spécifique d'une alimentation saine puisse varier selon divers facteurs individuels, culturels et locaux, les principes fondamentaux demeurent constants. Une alimentation équilibrée aide à prévenir un large éventail de maladies, notamment le diabète, les maladies cardiovasculaires, les accidents vasculaires cérébraux et le cancer. Il est bien établi que de mauvaises habitudes alimentaires et un manque d'activité physique constituent des risques majeurs pour la santé mondiale.  
+
+Il est crucial d'adopter des habitudes alimentaires saines dès le plus jeune âge, avec par exemple un encouragement à l'allaitement maternel, qui favorise une croissance saine et un développement cognitif optimal. En outre, un apport énergétique adapté à l'activité physique est essentiel pour éviter un gain de poids excessif, avec des recommandations visant à limiter l'apport en graisses à moins de 30 % de l'apport énergétique total.  
+
+La réduction de la consommation de sucres ajoutés, limitée à moins de 10 % de l'apport énergétique total, est également un élément crucial d'une alimentation saine. Des efforts pour abaisser ce seuil à moins de 5 % peuvent accroître encore davantage les bénéfices pour la santé.  
+
+En somme, la promotion d'une alimentation équilibrée et diversifiée, adaptée aux besoins individuels et aux contextes culturels, demeure un pilier essentiel de la santé publique mondiale, offrant des avantages substantiels pour la santé à long terme.
+
+Les conseils de l’OMS pour une alimentation saine incluent :  
+
+* Consommer au moins 400 g de fruits et légumes par jour pour réduire le risque de maladies non transmissibles et garantir un apport suffisant en fibres alimentaires. 
+* Limiter l'apport total en graisses à moins de 30 % de l'apport énergétique total, en privilégiant les graisses insaturées et en évitant les graisses saturées et les acides gras trans. 
+* Réduire la consommation de sel en limitant les aliments transformés et en évitant d'ajouter du sel pendant la cuisson et à table. 
+* Limiter la consommation de sucres libres à moins de 10 % de l'apport énergétique total, en privilégiant les aliments naturellement sucrés comme les fruits et en évitant les boissons sucrées et les en-cas sucrés. 
+Privilégier les aliments frais, de saison et variés pour une alimentation équilibrée et nutritive.
+
+### a) Tableau de recommandations pour des repas équilibrés et une bonne santé
+
+| Aliments                                     | Recommandations                                                                                                         |
+|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
+| Poisson                                       | - Deux fois par semaine   |
+|                       | - Dont un poisson gras (sardines, maquereau, hareng, saumon). |
+|                       | - Une portion est égale à 100 grammes. |
+|-----------------------|
+| Féculents                                    | - Peuvent être consommés à chaque repas                 |
+|                       | - Pâtes, pain, riz, semoule, complets de préférence, pommes de terre |
+|                       | - Environ 150 à 200 grammes |
+|-----------------------|
+| Légumes secs                              | - Au moins deux fois par semaine  |
+|                       | - Lentilles, haricots, pois chiches |
+|-----------------------|
+| Eau                                             | - Entre 2 et 2,5 litres par jour  |                           
+|-----------------------|
+| Fruits et légumes                     | - Au moins cinq par jour (par exemple trois portions de légumes et deux fruits)  |  
+|                       | - Une portion est égale à 80-100 grammes |
+|-----------------------|
+| Aliments gras, sucrés, salés, transformés | - À limiter autant que possible  |
+|                       | - Jus de fruits, sodas, céréales du petit-déjeuner, gâteaux, chocolat, crèmes dessert, biscuits apéritifs, charcuterie, plats industriels ... |
+|-----------------------|
+| Viande                                        | - 500 grammes maximum par semaine (environ 3-4 steaks)      |
+|                       | - Privilégiez la volaille et limitez les autres viandes porc, bœuf, veau, mouton, agneau, abats |
+|-----------------------|
+| Alcool                                         | - Pas plus de dix verres par semaine et pas plus de deux verres standards par jour avec des jours sans consommation |
+|                       | - Les femmes enceintes ou qui allaitent ne doivent pas boire d'alcool |
+|-----------------------|
+| Matières grasses                      | - Peuvent être consommées tous les jours en petites quantités beurre, huile, margarine                |
+|                       | - Privilégiez l'huile de colza, de noix et d'olive                |
+|-----------------------|
+| Produits laitiers                          | - Deux par jour              |
+|                       | - Par exemple un yaourt et un morceau de fromage  |
+|                       | - On passe à trois ou quatre par jour pour les enfants et les personnes âgées |
+
+[@oms_alimentation_2018] [@lafssa_sante_2002] [@msss_evaluation_2008]
+
+# V. Conclusion
+
+La nutrition joue un rôle important dans le maintien de notre bien-être et de notre santé. Elle fournit à notre corps les nutriments nécessaires pour favoriser le développement cellulaire, fournir de l'énergie, faciliter les processus chimiques et renforcer notre système immunitaire. Les produits céréaliers, les produits laitiers, les protéines animales et végétales ainsi que les légumes, fruits et légumes secs fournissent des nutriments essentiels pour le fonctionnement optimal du corps. Cependant, il est crucial de surveiller la consommation de graisses ajoutées et d'alcool pour éviter les excès de calories. Une alimentation équilibrée, riche en macronutriments et en micronutriments, est essentielle pour assurer le bon fonctionnement de notre organisme. 
+
+En analysant les habitudes alimentaires des adultes de différents groupes d'âge et de sexes, nous constatons certains écarts par rapport aux recommandations nutritionnelles. Par exemple, la consommation excessive de lipides, de protéines, de glucides simples et d'alcool peut augmenter le risque de maladies chroniques telles que l'obésité, les maladies cardiovasculaires et le diabète de type 2. De plus, une carence en vitamines et minéraux essentiels comme la vitamine D, le fer et l'iode peut avoir des implications graves pour la santé. 
+
+Il faut sensibiliser à l'importance d'une alimentation équilibrée et de promouvoir des comportements alimentaires sains. Cela peut impliquer des efforts pour limiter la consommation d'aliments riches en graisses saturées et en sucres ajoutés, encourager la diversité alimentaire, et sensibiliser aux recommandations en matière de consommation d'alcool et de sel. 
+
+Les recommandations de l'OMS pour une alimentation saine, telles que la consommation quotidienne de fruits et légumes, la limitation de l'apport en graisses et en sucres ajoutés, et la modération dans la consommation d'alcool, offrent des lignes directrices pour adopter des habitudes alimentaires responsables. En adoptant un régime alimentaire équilibré et en suivant ces recommandations, nous pouvons prévenir un large éventail de maladies. 
+
+Adopter une alimentation saine et équilibrée dès le plus jeune âge est essentiel pour préserver notre santé à long terme. En comprenant les besoins nutritionnels de notre corps et en faisant des choix alimentaires éclairés, nous pouvons améliorer notre bien-être général et réduire le risque de maladies.
+
+# Bibliographie
